@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(241,242,150);
+    background: linear-gradient(90deg, rgba(241,242,150,0.8913690476190477) 0%, rgba(238,191,228,1) 100%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#data-box {
+    
+    /* display: inline-block; */
+    height: 70vh;
+    width: 20vw;
+    background-color: aliceblue;
+    margin-right: 10px;
+    background-image: url('./Images/5626da0e582372e85f1dc39edd7da1e8.jpg');
+    background-size: 350px 500px;
+}
+
+#fonts{
+    width: 80%;
+    height: 10%;
+    margin-top: 10%;
+    margin-left: 9%;
+    background: rgb(209,244,242);
+    background: linear-gradient(74deg, rgba(209,244,242,0.8913690476190477) 39%, rgba(251,235,248,1) 68%, rgba(244,216,228,1) 100%);
+    font-size: 16px;
+}
+
+#side-bar{
+    /* display: inline-block; */
+    height: 70vh;
+    width: 20vw;
+    background-color: beige;
+    background-image: url('./Images/istockphoto-1399734488-612x612.jpg');
+    background-size: auto 500px;
+}
+
+#font{
+    margin-top: 10%;
+    margin-left: 6%;
+    
+}
+
+#styles{
+    margin-top: 10%;
+    height: 20%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#size{
+    height: 20px;
+    width: 40%;
+    background-image: url('./Images/blue-pink-halftone-background_53876-99004.avif');
+    border-radius: 5px;
+    border: none;
+}
+
+#color{
+    height: 30%;
+    width: 100%;
+    background-image: url('./Images/blue-pink-halftone-background_53876-99004.avif');
+    border: none;
+}
+
+#add-text{
+    height: 20%;
+    width: 60%;
+    /* border: 2px solid black; */
+    margin-top: 40%;
+    margin-left: 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+#add{
+    margin-top: 10%;
+    height: 40%;
+    width: 100%;
+    background-image: url('./Images/blue-pink-halftone-background_53876-99004.avif');
+    font-weight: bold;
+    font-size: 20px;
+    border: navajowhite;
+}
+
+#add-me{
+    height: 36%;
+}
+
+.Sans-Serif{
+    font-family: sans-serif;
+}
+
+.Times-New-Roman{
+    font-family: 'Times New Roman';
+}
+
+.Fantasy{
+    font-family: fantasy;
+}
+
+.Cursive{
+    font-family: cursive;
+}
+
+p{
+    text-align: center;
+    color: cadetblue;
+    font-size: 20px;
+}
+
+
+
+h4{
+    margin-top: -10%;
+    margin-right: 9%;
+    background: rgb(244,200,123);
+    background: linear-gradient(303deg, rgba(244,200,123,0.8913690476190477) 0%, rgba(102,246,147,1) 35%, rgba(126,146,241,1) 71%);
+    width: 100%;
+    margin-left: 40%;
+}
+
+#font-text{
+    background-image: url('./Images/blue-pink-halftone-background_53876-99004.avif');
+    height: 30px;
+    border-radius: 0px 20px 0px 20px;
+}
